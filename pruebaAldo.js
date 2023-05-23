@@ -1,3 +1,4 @@
+import sinon from "sinon"; //Importando la libreria 
 function fakeAPI() {
     return new Promise(resolve => {
       setTimeout(() => {
@@ -32,7 +33,6 @@ function fakeAPI() {
 const fakeAPIStub = sinon.stub().resolves("Hello world");//Cree la constante fakeApiStub para simular la primera respuesta con el resolve para que sea exitosa 
 
 const timeoutAfter = sinon.stub().rejects(new Error("request timed-out"));//Cree la consatnte en caso de error 
-
 
 
 
