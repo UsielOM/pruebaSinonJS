@@ -10,5 +10,6 @@
   "license": "ISC",
   "devDependencies": {
     "sinon": "^15.1.0"
-  }
+  },
+  "type": "module"
 }
