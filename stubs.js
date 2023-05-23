@@ -30,4 +30,4 @@ Sinon.assert.calledTwice(stub);// Verifica que el stub haya sido llamado exactam
 stub.reset();//Me devolvera mis datos originales 
 
 const datos3 = obtenerDatos();
-console.log(datos3);
+console.log(datos3);//Me mostra los datos originales de obtenerDatos
